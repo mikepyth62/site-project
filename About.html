@@ -1,0 +1,142 @@
+<style>
+    body {
+        background-color: #1a1a1a;
+        color: #e0e0e0;
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+    }
+
+    header {
+        padding: 15px 0;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
+
+    .header-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .logo img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .logo-text {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: white;
+    }
+
+    nav {
+        display: flex;
+        gap: 15px;
+    }
+
+    nav a {
+        padding: 10px 15px;
+        border-radius: 4px;
+        text-decoration: none;
+        color: #e0e0e0;
+        background: #333;
+        transition: all 0.3s ease;
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    nav a:hover {
+        background: #444;
+        transform: scale(1.05);
+    }
+
+    h2 {
+        color: #ffffff;
+        font-size: 2.2rem;
+        margin: 40px 0 30px;
+    }
+
+    .boxed-text {
+        background: #2d2d2d;
+        border: 1px solid #444;
+        border-radius: 12px;
+        padding: 25px;
+        margin: 30px auto;
+        max-width: 800px;
+        text-align: center;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .boxed-text p {
+        margin-bottom: 20px;
+        font-size: 1.1rem;
+        line-height: 1.7;
+    }
+
+    .boxed-text p:last-child {
+        margin-bottom: 0;
+    }
+
+    .content-image {
+        max-width: 800px;
+        margin: 40px auto;
+        display: block;
+        border-radius: 12px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+        transition: transform 0.3s ease;
+        border: 2px solid #4CAF50;
+    }
+
+    .content-image:hover {
+        transform: scale(1.02);
+    }
+
+    .center {
+        text-align: center;
+    }
+</style>
+<html>
+<body>
+    <title>О нашей компании</title>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="https://img.icons8.com/?size=100&id=eco2vZUxsc9M&format=png&color=4CAF50">
+                <div class="logo-text">Моя семья - мой космос</div>
+            </div>
+            <nav>
+                <a href="">Регистрация</a>
+                <a href="">Авторизация</a>
+                <a href="">Личный кабинет</a>
+                <a href="">О нас</a>
+                <a href="">Конкурсы</a>
+                <a href="">Поиск</a>
+                <a href="">Контакты</a>
+            </nav>
+        </div>
+    </header>
+    <center>
+        <h2>О нас</h2>
+    </center>
+    <div class="boxed-text">
+        <p>"Моя семья – мой космос" - это платформа для творческих семей, где каждый член семьи может проявить свои таланты и способности. Мы верим, что семейное творчество - это особый вид искусства, который объединяет поколения.</p>
+        <p>Наша миссия - создавать пространство для совместного творчества, где семьи могут участвовать в конкурсах, развиваться и получать признание.</p>
+        <p>С 2018 года мы провели более 50 конкурсов с участием 10,000 семей со всей страны. Наши жюри - это признанные эксперты в различных областях искусства и педагогики.</p>
+    </div>   
+    <center>
+        <img src="https://img.freepik.com/free-vector/cartoon-pride-day-family-collection_23-2148927316.jpg?ga=GA1.1.1181265809.1747719486&semt=ais_items_boosted&w=740" class="content-image">
+    </center>
+</body>
+</html>
